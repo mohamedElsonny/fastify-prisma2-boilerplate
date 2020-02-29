@@ -1,0 +1,26 @@
+type User {
+  id: String!
+  createdAt: DateTime!
+  email: String!
+  name: String
+  role: Role!
+  posts: [Post]
+}
+
+type Post {
+  id: String!
+  title: String!
+  content: String
+}
+
+type TokenSet {
+  email: String
+  name: String
+  token: String
+}
+
+scalar DateTime
+enum Role {
+  USER
+  ADMIN
+}

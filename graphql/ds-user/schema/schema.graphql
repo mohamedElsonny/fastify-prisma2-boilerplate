@@ -1,0 +1,11 @@
+# import User, TokenSet from "./user.graphql"
+
+type Query {
+  hello: String
+  user(userID: String!): User
+  users: [User]!
+}
+
+type Mutation {
+  signUp(email: String!, name: String!, password: String): TokenSet
+}

@@ -1,0 +1,12 @@
+# IF THERE'S A GIT CONFLICT IN THIS FILE, DON'T SOLVE IT MANUALLY!
+# INSTEAD EXECUTE `prisma2 migrate fix`
+# Prisma Migrate lockfile v1
+# Read more about conflict resolution here: TODO
+
+20200229055634-first-migration
+20200229060955-added-content
+20200229061714-add-auto-increment
+20200229062603-remove-user
+20200229062623-added-user
+20200229152429-added-password-to-user
+20200229161217-cuid-id
