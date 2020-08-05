@@ -13,7 +13,7 @@
   "dependencies": {
     "@prisma/client": "^2.0.0-preview022",
     "bcryptjs": "^2.4.3",
-    "fastify": "^2.12.1",
+    "fastify": "^2.15.1",
     "fastify-gql": "^3.0.6",
     "graphql": "^14.6.0",
     "graphql-fields-list": "^2.1.2",
